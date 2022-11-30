@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+   justify-content: space-evenly; 
+
+}
+
+
+.full-row{
+    height: min-content;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: inherit;
+    
+}
+
+.underline{
+    border-bottom: solid 2px #819fa7;
+}
+
+.icon{
+    height: 10rem;
+}

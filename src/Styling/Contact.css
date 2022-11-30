@@ -1,0 +1,49 @@
+.card{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 40rem;
+   
+   width: 66%;
+   
+}
+
+.big-card{
+    display: flex;
+    flex-direction: column;
+ 
+    align-items: center;
+   
+    padding: 0;
+    margin:0;
+}
+input, textarea{
+background-color: #bde8f1;
+border: none;
+border-radius: 7px;   
+
+}
+
+input{
+    height: 3rem;
+}
+
+
+textarea{
+    height: 8rem;
+}
+
+/* add a media query
+
+with a picture next to form when it's full sized
+
+figure out what to do with smaller screens
+*/
+
+form > input{
+    text-align: center;
+}
+
+textarea:focus, input:focus{
+    outline-color: #65dbf2;
+}

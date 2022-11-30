@@ -1,0 +1,28 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    
+    padding:0;
+    margin:0;
+    justify-content: space-around;
+    background-color: #bde8f1;
+    overflow: none;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+        text-decoration: none;
+    
+    list-style-type: none; 
+}
+
+li{
+    text-decoration: none;
+
+
+
+}
+  .link{
+    text-decoration: none;
+  }
