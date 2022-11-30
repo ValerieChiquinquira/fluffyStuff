@@ -1,0 +1,43 @@
+/* Booking Link */
+
+/* .border{
+    border: black solid 2px;;
+} */
+
+
+.full-row{
+    margin: 2rem 0 2rem 0;
+}
+.rectangle{
+    
+    display: flex;
+    flex-direction: row;
+    height: 20rem;
+   
+
+}
+.round-border{
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+    padding: 2rem;
+    background-color: #bde8f1;
+    text-align: center;
+    color: #0d0d0d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.button{
+    height: 3.5rem;
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+    padding: 2rem;
+    background-color: #bde8f1;
+    text-transform: uppercase;
+}
